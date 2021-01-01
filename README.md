@@ -34,7 +34,7 @@ def Draw(a,size):    #Draw pciture   (If this picture is large, it will take a l
 num =0
 Draw(array, size)
 print('\over')
-wb.save('test')
+wb.save('#xlsx_name')
 wb.close()
 App.quit()
 
